@@ -1,21 +1,10 @@
-import {expect} from 'chai'
-import * as stripAnsi from 'strip-ansi'
-
 import {run} from '../src'
 
-const {env} = process
+import {describe, expect, output} from './helpers'
 
-beforeEach(() => {
-  process.env = {}
-})
-
-afterEach(() => {
-  process.env = env
-})
-
-describe('run', () => {
+describe.env().stdout('run', () => {
   it('example', async () => {
-    const {stdout} = await run(['node', 'js', 'example'])
-    expect(stripAnsi(stdout)).to.contain('[echo] example workflow')
+    await run(['node', 'js', 'example'])
+    expect(output.stdout).to.contain('[echo] example workflow')
   })
 })
