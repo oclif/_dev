@@ -1,3 +1,11 @@
+<a name="0.0.2"></a>
+## [0.0.2](https://github.com/dxcli/dev/compare/038bbc0671ae94421bc738e1a942b8dfa123dd72...v0.0.2) (2018-01-13)
+
+
+### Bug Fixes
+
+* add coverage ([9850763](https://github.com/dxcli/dev/commit/9850763))
+
 <a name="0.0.1"></a>
 ## [0.0.1](https://github.com/dxcli/dev/compare/b95914a0ca6fa9c90c11d4a297bf2770c37d62a1...v0.0.1) (2018-01-13)
 

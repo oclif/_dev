@@ -1,7 +1,7 @@
 {
   "name": "@dxcli/dev",
   "description": "scripts for working with dxcli components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Jeff Dickey",
   "bin": {
     "dxcli-dev": "bin/run"
