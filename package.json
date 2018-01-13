@@ -3,32 +3,48 @@
   "description": "scripts for working with dxcli components",
   "version": "0.0.0",
   "author": "Jeff Dickey",
-  "dependencies": {},
+  "bin": {
+    "dxcli-dev": "bin/run"
+  },
+  "dependencies": {
+    "cli-ux": "^2.0.21",
+    "concurrently": "^3.5.1",
+    "execa": "^0.9.0",
+    "read-pkg-up": "^3.0.0"
+  },
   "devDependencies": {
     "@dxcli/dev-semantic-release": "^0.0.2",
     "@dxcli/dev-tslint": "^0.0.5",
+    "@types/ansi-styles": "^2.0.30",
+    "@types/execa": "^0.8.1",
+    "@types/mocha": "^2.2.46",
+    "@types/node": "^9.3.0",
+    "@types/read-pkg-up": "^3.0.0",
     "eslint": "^4.15.0",
     "eslint-config-dxcli": "^1.1.1",
     "husky": "^0.14.3",
     "mocha": "^4.1.0",
     "nyc": "^11.4.1",
+    "ts-node": "^4.1.0",
     "typescript": "^2.6.2"
   },
   "dxcli": {
     "workflows": {
+      "example": [
+        "echo example workflow"
+      ],
       "test": [
         "eslint .",
         "tsc",
         "tslint -p .",
         "commitlint --from master",
-        "nyc mocha"
+        "nyc mocha test/**/*.test.ts"
       ],
       "lint": [
         "eslint .",
         "tsc",
         "tslint -p .",
-        "commitlint --from master",
-        "nyc mocha"
+        "commitlint --from master"
       ]
     }
   },
@@ -36,6 +52,7 @@
     "node": ">=8.0.0"
   },
   "files": [
+    "/bin",
     "/lib"
   ],
   "license": "MIT",
