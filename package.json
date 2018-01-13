@@ -38,7 +38,7 @@
         "tsc",
         "tslint -p .",
         "commitlint --from master",
-        "nyc mocha test/**/*.test.ts"
+        "mocha test/**/*.test.ts"
       ],
       "lint": [
         "eslint .",
