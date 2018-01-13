@@ -18,7 +18,7 @@
   "devDependencies": {
     "@dxcli/dev-nyc-config": "^0.0.3",
     "@dxcli/dev-semantic-release": "^0.0.2",
-    "@dxcli/dev-tslint": "^0.0.5",
+    "@dxcli/dev-tslint": "^0.0.6",
     "@types/ansi-styles": "^2.0.30",
     "@types/chai": "^4.1.0",
     "@types/execa": "^0.8.1",
