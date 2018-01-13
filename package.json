@@ -1,0 +1,49 @@
+{
+  "name": "@dxcli/dev",
+  "description": "scripts for working with dxcli components",
+  "version": "0.0.0",
+  "author": "Jeff Dickey",
+  "dependencies": {},
+  "devDependencies": {
+    "@dxcli/dev-semantic-release": "^0.0.2",
+    "@dxcli/dev-tslint": "^0.0.5",
+    "eslint": "^4.15.0",
+    "eslint-config-dxcli": "^1.1.1",
+    "husky": "^0.14.3",
+    "mocha": "^4.1.0",
+    "nyc": "^11.4.1",
+    "typescript": "^2.6.2"
+  },
+  "dxcli": {
+    "workflows": {
+      "test": [
+        "eslint .",
+        "tsc",
+        "tslint -p .",
+        "commitlint --from master",
+        "nyc mocha"
+      ],
+      "lint": [
+        "eslint .",
+        "tsc",
+        "tslint -p .",
+        "commitlint --from master",
+        "nyc mocha"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/lib"
+  ],
+  "license": "MIT",
+  "repository": "dxcli/dev",
+  "scripts": {
+    "commitmsg": "dxcli-dev-commitmsg",
+    "lint": "./bin/run lint",
+    "prepare": "tsc",
+    "test": "./bin/run test"
+  }
+}
