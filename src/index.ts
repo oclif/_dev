@@ -11,12 +11,9 @@ export async function run(argv = process.argv) {
   const workflows = getWorkflows(pkg)
   const workflowNames = Object.keys(workflows)
   if (workflowNames.length === 0) throw new Error(`dxcli.workflows is not defined in ${pkg.path}`)
-  let [, , cmd, ...extraArgs] = argv
+  let [, , cmd] = argv
   const workflow = workflows[cmd]
   if (!workflow) throw new Error(`USAGE: dxcli-dev (${workflowNames.join('|')}) <args>...`)
-
-  const lastTask = workflow[workflow.length - 1]
-  workflow[workflow.length - 1] = `${lastTask} ${extraArgs.join(' ')}`
 
   return concurrently(workflow)
 }
