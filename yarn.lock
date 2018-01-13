@@ -130,6 +130,22 @@
     "@semantic-release/npm" "^2.6.1"
     semantic-release "^12.2.0"
 
+"@dxcli/dev-test@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@dxcli/dev-test/-/dev-test-0.0.0.tgz#5558bd1ef989c907b875de90153ae20df1856ed2"
+  dependencies:
+    "@types/ansi-styles" "^2.0.30"
+    "@types/chai" "^4.1.0"
+    "@types/lodash" "^4.14.92"
+    "@types/mocha" "^2.2.46"
+    "@types/strip-ansi" "^3.0.0"
+    chai "^4.1.2"
+    lodash "^4.17.4"
+    mocha-junit-reporter "^1.15.0"
+    std-mocks "^1.0.1"
+    strip-ansi "^4.0.0"
+    ts-node "^4.1.0"
+
 "@dxcli/dev-tslint@^0.0.6":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@dxcli/dev-tslint/-/dev-tslint-0.0.6.tgz#5d307afcaff763a1baf84ed4cdd9937f709b913f"

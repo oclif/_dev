@@ -1,6 +1,6 @@
-import {run} from '../src'
+import {describe, expect, output} from '@dxcli/dev-test'
 
-import {describe, expect, output} from './helpers'
+import {run} from '../src'
 
 describe.env().stdout('run', () => {
   it('example', async () => {
