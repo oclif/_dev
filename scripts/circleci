@@ -21,5 +21,6 @@ if [[ "$CLI_ENGINE_GREENKEEPER_BRANCH" == 1 ]]; then
   greenkeeper-lockfile-upload
 fi
 
-yarn test --coverage
+yarn test
+nyc report --reporter=text-lcov > coverage.lcov
 curl -s https://codecov.io/bash | bash
