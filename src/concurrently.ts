@@ -17,7 +17,8 @@ export default async function concurrently(tasks: string[]) {
     return opts ? `${task} ${opts}` : task
   }).value()
 
-  return spawn('concurrently', [level ? '--color' : '--no-color', '-n', names.join(','), '-s', 'all', ...tasks], {
+  const concurrentlyPath = require.resolve('concurrently')
+  return spawn('node', [concurrentlyPath, level ? '--color' : '--no-color', '-n', names.join(','), '-s', 'all', ...tasks], {
     env: {
       FORCE_COLOR: process.env.FORCE_COLOR || (level ? level.toString() : '0')
     }
