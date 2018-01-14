@@ -1,3 +1,11 @@
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/dxcli/dev/compare/80e60ed06d35f646dc07652f4c4e10a25a3c4539...v1.1.1) (2018-01-14)
+
+
+### Bug Fixes
+
+* fix windows bin script ([5d0d46f](https://github.com/dxcli/dev/commit/5d0d46f))
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/dxcli/dev/compare/541b0db83d3d5f9df06e18d53625541a2b8d8cd5...v1.1.0) (2018-01-14)
 
