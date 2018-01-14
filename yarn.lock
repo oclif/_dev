@@ -130,10 +130,11 @@
     "@semantic-release/npm" "^2.6.1"
     semantic-release "^12.2.0"
 
-"@dxcli/dev-test@^0.0.0":
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/@dxcli/dev-test/-/dev-test-0.0.0.tgz#5558bd1ef989c907b875de90153ae20df1856ed2"
+"@dxcli/dev-test@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@dxcli/dev-test/-/dev-test-0.0.1.tgz#8440c7fec40ccf7ad5dc21d5224be09ca42a4cb4"
   dependencies:
+    "@dxcli/dev-nyc-config" "^0.0.3"
     "@types/ansi-styles" "^2.0.30"
     "@types/chai" "^4.1.0"
     "@types/lodash" "^4.14.92"
