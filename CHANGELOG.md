@@ -1,3 +1,11 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/dxcli/dev/compare/541b0db83d3d5f9df06e18d53625541a2b8d8cd5...v1.1.0) (2018-01-14)
+
+
+### Features
+
+* show node version ([b327433](https://github.com/dxcli/dev/commit/b327433))
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/dxcli/dev/compare/887e6f174c204458d1d927912179ee49e1d0025b...v1.0.0) (2018-01-13)
 
