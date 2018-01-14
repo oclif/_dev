@@ -1,3 +1,11 @@
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/dxcli/dev/compare/5d0d46f3196599f43124b18617b0d77223415ea0...v1.1.2) (2018-01-14)
+
+
+### Bug Fixes
+
+* find direct path to concurrently ([76a943e](https://github.com/dxcli/dev/commit/76a943e))
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/dxcli/dev/compare/80e60ed06d35f646dc07652f4c4e10a25a3c4539...v1.1.1) (2018-01-14)
 
