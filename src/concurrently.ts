@@ -3,8 +3,11 @@ import * as _ from 'lodash'
 
 import spawn from './spawn'
 
+const VERSION = require('../package.json').version
+
 export default async function concurrently(tasks: string[]) {
   const supportsColor = require('supports-color')
+  cli.log(`@dxcli/dev ${VERSION} node-${process.version}`)
   cli.log(tasks.map(t => `$ ${t}`).join('\n'))
   const names = tasks.map(t => t.split(' ')[0])
   const level = supportsColor.stdout.level && supportsColor.stderr.level
