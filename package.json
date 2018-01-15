@@ -44,13 +44,13 @@
       "test": [
         "eslint .",
         "tslint -p .",
-        "commitlint --from master",
+        "commitlint --from origin/master",
         "mocha test/**/*.test.ts"
       ],
       "lint": [
         "eslint .",
         "tslint -p .",
-        "commitlint --from master"
+        "commitlint --from origin/master"
       ]
     }
   },
