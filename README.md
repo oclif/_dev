@@ -1,6 +1,8 @@
 @dxcli/dev
 ==========
 
+scripts for working with dxcli components
+
 [![Version](https://img.shields.io/npm/v/@dxcli/dev.svg)](https://npmjs.org/package/@dxcli/dev)
 [![CircleCI](https://circleci.com/gh/dxcli/dev/tree/master.svg?style=svg)](https://circleci.com/gh/dxcli/dev/tree/master)
 [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/dxcli/dev?branch=master&svg=true)](https://ci.appveyor.com/project/heroku/dev/branch/master)

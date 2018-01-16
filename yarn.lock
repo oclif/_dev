@@ -130,9 +130,9 @@
     "@semantic-release/npm" "^2.6.1"
     semantic-release "^12.2.0"
 
-"@dxcli/dev-test@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@dxcli/dev-test/-/dev-test-0.0.1.tgz#8440c7fec40ccf7ad5dc21d5224be09ca42a4cb4"
+"@dxcli/dev-test@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@dxcli/dev-test/-/dev-test-0.1.1.tgz#6a03471c700412e3b04724501e083310777beda1"
   dependencies:
     "@dxcli/dev-nyc-config" "^0.0.3"
     "@types/ansi-styles" "^2.0.30"
@@ -147,12 +147,25 @@
     strip-ansi "^4.0.0"
     ts-node "^4.1.0"
 
-"@dxcli/dev-tslint@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@dxcli/dev-tslint/-/dev-tslint-0.0.6.tgz#5d307afcaff763a1baf84ed4cdd9937f709b913f"
+"@dxcli/dev-tslint@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@dxcli/dev-tslint/-/dev-tslint-0.0.9.tgz#552b62b769ede24b30fdc3b8c04e10b1a60f027f"
   dependencies:
     tslint "^5.9.1"
-    tslint-xo "^0.4.0"
+    tslint-xo "^0.5.0"
+
+"@dxcli/dev@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@dxcli/dev/-/dev-1.1.2.tgz#66acd0b6d5cc9cf8a94a00692c67d40c94ebf81b"
+  dependencies:
+    cli-ux "^2.0.21"
+    concurrently "^3.5.1"
+    debug "^3.1.0"
+    execa "^0.9.0"
+    get-stream "^3.0.0"
+    lodash "^4.17.4"
+    read-pkg-up "^3.0.0"
+    supports-color "^5.1.0"
 
 "@heroku-cli/color@^1.0.4":
   version "1.1.1"
@@ -1396,9 +1409,9 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-dxcli@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-dxcli/-/eslint-config-dxcli-1.1.2.tgz#284fe88dd54312217659ec81656e57e2b375ea56"
+eslint-config-dxcli@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/eslint-config-dxcli/-/eslint-config-dxcli-1.1.4.tgz#e74a6be724d4de72f116d87f300afb5aacd25fe9"
   dependencies:
     eslint-config-xo-space "^0.17.0"
     eslint-plugin-node "^5.2.1"
@@ -4325,9 +4338,9 @@ tslint-microsoft-contrib@^5.0.1:
   dependencies:
     tsutils "^1.4.0"
 
-tslint-xo@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/tslint-xo/-/tslint-xo-0.4.0.tgz#7cbdfc933ff60d88449c64142e3e060e6432e734"
+tslint-xo@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/tslint-xo/-/tslint-xo-0.5.0.tgz#56e591dcd2731de35e7462a0dfa1214731ba9f27"
   dependencies:
     tslint-consistent-codestyle "^1.11.0"
     tslint-eslint-rules "^4.1.1"
