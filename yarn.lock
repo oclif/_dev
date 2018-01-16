@@ -147,9 +147,9 @@
     strip-ansi "^4.0.0"
     ts-node "^4.1.0"
 
-"@dxcli/dev-tslint@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@dxcli/dev-tslint/-/dev-tslint-0.0.9.tgz#552b62b769ede24b30fdc3b8c04e10b1a60f027f"
+"@dxcli/dev-tslint@0.0.10":
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/@dxcli/dev-tslint/-/dev-tslint-0.0.10.tgz#122d524790a92352ecde37d16d67ff14ad281e63"
   dependencies:
     tslint "^5.9.1"
     tslint-xo "^0.5.0"
