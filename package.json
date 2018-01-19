@@ -7,7 +7,7 @@
     "dxcli-dev": "bin/run"
   },
   "dependencies": {
-    "cli-ux": "^2.0.21",
+    "cli-ux": "^3.0.0",
     "concurrently": "^3.5.1",
     "debug": "^3.1.0",
     "execa": "^0.9.0",
