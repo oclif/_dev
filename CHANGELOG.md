@@ -1,3 +1,11 @@
+<a name="2.0.1"></a>
+## [2.0.1](https://github.com/dxcli/dev/compare/d33297be286ec1b60a069cd4890b5f883a5c31b9...v2.0.1) (2018-01-27)
+
+
+### Bug Fixes
+
+* updated dev-test ([dc8ff5b](https://github.com/dxcli/dev/commit/dc8ff5b))
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/dxcli/dev/compare/0b458d213004ed51405bd44903722309ce83dda2...v2.0.0) (2018-01-27)
 
