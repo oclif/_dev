@@ -6,11 +6,13 @@ cache:
 
 install:
   - ps: Install-Product node $env:nodejs_version x64
+  - git submodule sync
+  - git submodule update --init --recursive
   - git config --global user.email "dxcli@example.com"
   - git config --global user.name "dxcli"
   - yarn
 test_script:
-  - yarn test
+  - .\node_modules\.bin\nps ci.test
 after_test:
   - ps: |
       $env:PATH = 'C:\msys64\usr\bin;' + $env:PATH
