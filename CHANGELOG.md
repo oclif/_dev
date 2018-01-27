@@ -1,3 +1,16 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/dxcli/dev/compare/0b458d213004ed51405bd44903722309ce83dda2...v2.0.0) (2018-01-27)
+
+
+### Features
+
+* convert to metaplugin ([c0d13bc](https://github.com/dxcli/dev/commit/c0d13bc))
+
+
+### BREAKING CHANGES
+
+* this is a totally different plugin with the same name
+
 <a name="1.1.3"></a>
 ## [1.1.3](https://github.com/dxcli/dev/compare/76a943ee20166f0cb4edcae27327d1da3d6133ee...v1.1.3) (2018-01-16)
 
