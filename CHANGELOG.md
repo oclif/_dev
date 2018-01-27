@@ -1,3 +1,11 @@
+<a name="2.0.4"></a>
+## [2.0.4](https://github.com/dxcli/dev/compare/dff104ba4f075ad3efcd71e1cb8406409dbe156c...v2.0.4) (2018-01-27)
+
+
+### Bug Fixes
+
+* removed some deps that should be specified ([fbd29c4](https://github.com/dxcli/dev/commit/fbd29c4))
+
 <a name="2.0.3"></a>
 ## [2.0.3](https://github.com/dxcli/dev/compare/446ba261fd6e20fe072e89a9fedfb1fd705bef7a...v2.0.3) (2018-01-27)
 
