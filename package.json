@@ -49,5 +49,6 @@
     "commitmsg": "dxcli-dev-commitmsg",
     "precommit": "nps lint",
     "test": "nps test"
-  }
+  },
+  "types": "lib/index.d.ts"
 }

@@ -1,7 +1,7 @@
 @dxcli/dev
 ==========
 
-metaplugin for dxcli components
+metapackage for dxcli dev dependencies
 
 [![Version](https://img.shields.io/npm/v/@dxcli/dev.svg)](https://npmjs.org/package/@dxcli/dev)
 [![CircleCI](https://circleci.com/gh/dxcli/dev/tree/master.svg?style=svg)](https://circleci.com/gh/dxcli/dev/tree/master)
