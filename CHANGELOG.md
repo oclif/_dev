@@ -1,3 +1,11 @@
+<a name="2.0.5"></a>
+## [2.0.5](https://github.com/dxcli/dev/compare/fbd29c4c3b3c655d2fe71d7d6664045c55325087...v2.0.5) (2018-01-28)
+
+
+### Bug Fixes
+
+* remove eslint and typescript by default ([73d3c99](https://github.com/dxcli/dev/commit/73d3c99))
+
 <a name="2.0.4"></a>
 ## [2.0.4](https://github.com/dxcli/dev/compare/dff104ba4f075ad3efcd71e1cb8406409dbe156c...v2.0.4) (2018-01-27)
 
