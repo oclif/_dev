@@ -1,3 +1,11 @@
+<a name="2.0.12"></a>
+## [2.0.12](https://github.com/dxcli/dev/compare/03cb1d640abe84f4c715317a59d9d76e0dfcdd3c...v2.0.12) (2018-01-28)
+
+
+### Bug Fixes
+
+* move nps-utils back ([b567775](https://github.com/dxcli/dev/commit/b567775))
+
 <a name="2.0.11"></a>
 ## [2.0.11](https://github.com/dxcli/dev/compare/fac2db333d9aaeda10d0d9d4734e1ee1c38d6c35...v2.0.11) (2018-01-28)
 
