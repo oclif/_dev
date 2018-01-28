@@ -23,7 +23,7 @@
     "nyc": "^11.4.1"
   },
   "devDependencies": {
-    "@dxcli/semantic-release": "^0.2.4",
+    "@dxcli/semantic-release": "^0.3.3",
     "eslint": "^4.16.0",
     "husky": "^0.14.3",
     "mocha": "^5.0.0",
@@ -44,8 +44,8 @@
   "repository": "dxcli/dev",
   "scripts": {
     "commitmsg": "dxcli-commitlint",
-    "precommit": "nps lint",
-    "test": "nps test"
+    "precommit": "nps lint -l warn",
+    "test": "nps test -l warn"
   },
   "types": "lib/index.d.ts"
 }

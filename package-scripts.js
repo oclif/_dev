@@ -12,16 +12,13 @@ const linters = {
   commitlint: script('commitlint --from origin/master', 'ensure that commits are in valid conventional-changelog format'),
 }
 
-const scripts = {
-  ...linters,
-  lint: concurrent(linters),
-  test: concurrent(linters),
-}
+let test = concurrent(linters)
 
-if (process.env.CI) {
-  if (process.env.CIRCLECI) {
-    scripts.release = 'semantic-release -e @dxcli/semantic-release'
-  }
+module.exports = {
+  scripts: {
+    ...linters,
+    lint: concurrent(linters),
+    test,
+    release: 'semantic-release -e @dxcli/semantic-release',
+  },
 }
-
-module.exports = {scripts}
