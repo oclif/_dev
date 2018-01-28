@@ -18,4 +18,10 @@ const scripts = {
   test: concurrent(linters),
 }
 
+if (process.env.CI) {
+  if (process.env.CIRCLECI) {
+    scripts.release = 'semantic-release -e @dxcli/dev-semantic-release'
+  }
+}
+
 module.exports = {scripts}
