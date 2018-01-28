@@ -1,3 +1,11 @@
+<a name="2.0.6"></a>
+## [2.0.6](https://github.com/dxcli/dev/compare/73d3c990fa3bc6e781b5be5f4eec0041b55db9e5...v2.0.6) (2018-01-28)
+
+
+### Bug Fixes
+
+* remove semantic-release by default ([f63ed53](https://github.com/dxcli/dev/commit/f63ed53))
+
 <a name="2.0.5"></a>
 ## [2.0.5](https://github.com/dxcli/dev/compare/fbd29c4c3b3c655d2fe71d7d6664045c55325087...v2.0.5) (2018-01-28)
 
