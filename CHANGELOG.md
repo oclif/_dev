@@ -1,3 +1,11 @@
+<a name="2.0.8"></a>
+## [2.0.8](https://github.com/dxcli/dev/compare/d4455bc13e5a0074fc2b2a7926a5c33078aef3b7...v2.0.8) (2018-01-28)
+
+
+### Bug Fixes
+
+* remove ts-node and tslint by default ([c57af42](https://github.com/dxcli/dev/commit/c57af42))
+
 <a name="2.0.7"></a>
 ## [2.0.7](https://github.com/dxcli/dev/compare/f63ed53be10d1e2063453d6b3903f01b2f0a1bf6...v2.0.7) (2018-01-28)
 
