@@ -20,7 +20,6 @@
     "@types/strip-ansi": "^3.0.0",
     "@types/supports-color": "^3.1.0",
     "eslint-config-dxcli": "^1.1.5",
-    "mocha-junit-reporter": "^1.17.0",
     "nyc": "^11.4.1"
   },
   "devDependencies": {
