@@ -1,3 +1,11 @@
+<a name="2.0.10"></a>
+## [2.0.10](https://github.com/dxcli/dev/compare/0aa733a5cbff3dab6339dca9e968ca37483bb810...v2.0.10) (2018-01-28)
+
+
+### Bug Fixes
+
+* rename packages ([fac2db3](https://github.com/dxcli/dev/commit/fac2db3))
+
 <a name="2.0.9"></a>
 ## [2.0.9](https://github.com/dxcli/dev/compare/c57af428cc00bbea8b6f38c603f40fd3abd8ee10...v2.0.9) (2018-01-28)
 
