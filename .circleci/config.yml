@@ -50,12 +50,12 @@ workflows:
   version: 2
   "@dxcli/dev":
     jobs:
-      # - node-latest
-      # - node-8
+      - node-latest
+      - node-8
       - release:
           context: org-global
           filters:
             branches: {only: master}
           requires:
-            # - node-latest
-            # - node-8
+            - node-latest
+            - node-8
