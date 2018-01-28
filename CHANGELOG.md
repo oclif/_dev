@@ -1,3 +1,11 @@
+<a name="2.0.15"></a>
+## [2.0.15](https://github.com/dxcli/dev/compare/59229ef74592ac2f493a65628cb865d937d7ea2f...v2.0.15) (2018-01-28)
+
+
+### Bug Fixes
+
+* add [@types](https://github.com/types)/fs-extra ([c3e8f6d](https://github.com/dxcli/dev/commit/c3e8f6d))
+
 <a name="2.0.14"></a>
 ## [2.0.14](https://github.com/dxcli/dev/compare/f560c18d1b7074ad72db6b7f61043665a582143a...v2.0.14) (2018-01-28)
 
