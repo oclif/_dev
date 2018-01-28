@@ -1,3 +1,11 @@
+<a name="2.0.9"></a>
+## [2.0.9](https://github.com/dxcli/dev/compare/c57af428cc00bbea8b6f38c603f40fd3abd8ee10...v2.0.9) (2018-01-28)
+
+
+### Bug Fixes
+
+* remove mocha-junit-reporter by default ([0aa733a](https://github.com/dxcli/dev/commit/0aa733a))
+
 <a name="2.0.8"></a>
 ## [2.0.8](https://github.com/dxcli/dev/compare/d4455bc13e5a0074fc2b2a7926a5c33078aef3b7...v2.0.8) (2018-01-28)
 
