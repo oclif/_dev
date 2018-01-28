@@ -1,3 +1,11 @@
+<a name="2.0.13"></a>
+## [2.0.13](https://github.com/dxcli/dev/compare/b56777550d090c116f80b3ab846ce32c878834a8...v2.0.13) (2018-01-28)
+
+
+### Bug Fixes
+
+* updated eslint config ([f560c18](https://github.com/dxcli/dev/commit/f560c18))
+
 <a name="2.0.12"></a>
 ## [2.0.12](https://github.com/dxcli/dev/compare/03cb1d640abe84f4c715317a59d9d76e0dfcdd3c...v2.0.12) (2018-01-28)
 
