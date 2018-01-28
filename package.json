@@ -9,7 +9,6 @@
   "bugs": "https://github.com/dxcli/dev/issues",
   "dependencies": {
     "@dxcli/dev-nyc-config": "^0.0.3",
-    "@dxcli/dev-tslint": "^0.0.18",
     "@types/ansi-styles": "^2.0.30",
     "@types/chai": "^4.1.2",
     "@types/lodash": "^4.14.97",
@@ -22,8 +21,7 @@
     "@types/supports-color": "^3.1.0",
     "eslint-config-dxcli": "^1.1.5",
     "mocha-junit-reporter": "^1.17.0",
-    "nyc": "^11.4.1",
-    "ts-node": "^4.1.0"
+    "nyc": "^11.4.1"
   },
   "devDependencies": {
     "@dxcli/dev-semantic-release": "^0.2.0",
