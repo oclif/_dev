@@ -20,7 +20,7 @@ const scripts = {
 
 if (process.env.CI) {
   if (process.env.CIRCLECI) {
-    scripts.release = 'semantic-release -e @dxcli/dev-semantic-release'
+    scripts.release = 'semantic-release -e @dxcli/semantic-release'
   }
 }
 
