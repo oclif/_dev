@@ -1,3 +1,11 @@
+<a name="2.0.7"></a>
+## [2.0.7](https://github.com/dxcli/dev/compare/f63ed53be10d1e2063453d6b3903f01b2f0a1bf6...v2.0.7) (2018-01-28)
+
+
+### Bug Fixes
+
+* updated dev-tslint ([76efcdd](https://github.com/dxcli/dev/commit/76efcdd))
+
 <a name="2.0.6"></a>
 ## [2.0.6](https://github.com/dxcli/dev/compare/73d3c990fa3bc6e781b5be5f4eec0041b55db9e5...v2.0.6) (2018-01-28)
 
