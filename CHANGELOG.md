@@ -1,3 +1,12 @@
+<a name="2.0.16"></a>
+## [2.0.16](https://github.com/dxcli/dev/compare/c3e8f6dc2660b63f094f7b0790f7e08828c8a74e...v2.0.16) (2018-01-29)
+
+
+### Bug Fixes
+
+* add [@types](https://github.com/types)/execa ([bf3f2f7](https://github.com/dxcli/dev/commit/bf3f2f7))
+* make [@dxcli](https://github.com/dxcli)/nyc-config required ([fb2e838](https://github.com/dxcli/dev/commit/fb2e838))
+
 <a name="2.0.15"></a>
 ## [2.0.15](https://github.com/dxcli/dev/compare/59229ef74592ac2f493a65628cb865d937d7ea2f...v2.0.15) (2018-01-28)
 
