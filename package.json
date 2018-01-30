@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@dxcli/nyc-config": "^0.0.4",
-    "@dxcli/semantic-release": "^0.3.3",
+    "@dxcli/semantic-release": "^1.0.1",
     "@types/execa": "^0.8.1",
     "@types/fs-extra": "^5.0.0",
     "eslint": "^4.16.0",
